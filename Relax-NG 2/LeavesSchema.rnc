@@ -1,0 +1,12 @@
+start = poem
+poem = element poem {title, intro,(Ind | Stanza)+, copyright}
+title = element title {text}
+intro = element intro {text}
+Ind = element Ind {text}
+s = attribute s {xsd:integer}
+Stanza = element Stanza {mixed{s, Cont, LoI}}
+Cont = element Cont {mixed{Info}}
+Info = attribute Info {"Setting"}
+LoI = element LoI {text}
+copyright = element copyright {text}
+
