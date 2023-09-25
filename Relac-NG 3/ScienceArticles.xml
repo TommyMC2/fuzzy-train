@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ScienceSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<WebPage>
+    <title>Space</title>
+    <webDisc>Verge Science is here to bring you the most up-to-date space news and analysis, whether
+        it’s about the latest findings from NASA or comprehensive coverage of the next SpaceX rocket
+        launch to the International Space Station. We’ll take you inside the discoveries of new
+        exoplanets, space weather, space policy, and the booming commercial space industry. </webDisc>
+
+    <Intro>SPACE</Intro>
+    <topArt>NASA collected a sample from an asteroid for the first time — here’s why it matters
+        GEORGINA TORBET<time t="2 26 PM EDT">2:26 PM EDT</time>|5 <photo>OSIRIS-REx sample retrieval
+            by NASA</photo></topArt>
+
+    <article n="1">
+        <icon>W</icon>
+        <edtior name="WES DAVIS">WES DAVIS</edtior>
+        <time t="12 24 PM EDT">12:24 PM EDT</time>
+
+        <para>The OSIRIS-REx capsule is in the bag.NASA reports that the OSIRIS-REx capsule “has
+            been bagged” and is flying suspended from a helicopter to the space agency’s clean lab
+            to recover samples gathered from the Bennu asteroid in 2020. When it gets to NASA’s
+            on-site clean room, scientists will remove the canister containing the sample to be
+            opened at Johnson Space Center in Houston, Texas on Tuesday. Check out this gallery of
+            screenshots from NASA’s live coverage. NASA had a photographer on site, so we’ll
+            probably get some much nicer shots of the process soon.</para>
+
+
+
+        <photoCount>1/5</photoCount>
+    </article>
+
+    <article n="2">
+        <icon>W</icon>
+        <editor name="WES DAVIS">WES DAVIS</editor>
+        <time t="11 48 AM EDT">11:48 AM EDT</time>
+
+        <pare>NASA is now recovering the capsule containing the Bennu asteroid sample.A team is
+            preparing to take the OSIRIS-REx capsule back to NASA’s portable clean lab to collect
+            the Bennu asteroid sample it gathered three years ago, according to NASA’s live
+            coverage. Team members have also placed flags in the area to note potentially
+            interesting environmental samples to collect in the area around the capsule for later
+            examination.</pare>
+
+
+        <disc>A group of four people stand near the OSIRIS-REx capsule.</disc>
+        <credit>The NASA recovery team examines the OSIRIS-REx capsule prior to beginning official
+            recovery operations. Screenshot: Wes Davis / The Verge</credit>
+    </article>
+
+    <article n="3">
+        <icon>W</icon>
+        <editor name="WES DAVIS">WES DAVIS</editor>
+        <time t="11 28 AM EDT">11:28 AM EDT</time>
+
+        <para>OSIRIS-REx is safe for approach.Lockheed Martin crew checked it for dangerous heat,
+            off-gassing, and unexploded ordinance at the site of the capsule to make sure it poses
+            no danger to the team recovering the OSIRIS-REx samples. They’ve now declared it safe to
+            approach, so NASA will now prepare to pick it up.</para>
+
+
+        <disc>Two people standing near the capsule, examining it for any danger.</disc>
+        <credit>Lockheed Martin safety team members check the capsule to ensure it’s safe to
+            approach. Screenshot: Wes Davis / The Verge</credit>
+    </article>
+
+    <article n="4">
+        <icon>W</icon>
+        <editor name="WES DAVIS">WES DAVIS</editor>
+        <time t="11 16 AM EDT">11:16 AM EDT</time>
+
+        <para>The OSIRIS-REx capsule has been located.The OSIRIS-REx helicopter team has confirmed
+            the location of the capsule containing the Bennu asteroid sample. The capsule touched
+            down at about <time t="10 52AM ET">10:52AM ET</time>. The first helicopter has landed
+            and the team is beginning recovery of the capsule as soon as they can verify there is no
+            danger of injury from unexploded ordinance.</para>
+
+
+        <disc>A picture of the OSIRIS-REx capsule at its landing site.</disc>
+        <credit>The OSIRIS-REx capsule sitting in the Utah desert. Screenshot: Wes Davis / The
+            Verge</credit>
+    </article>
+
+    <article n="5">
+        <icon>W</icon>
+        <icon>1</icon>
+        <editor name="WES DAVIS">WES DAVIS</editor>
+        <time t="10 57 AM EDT">10:57 AM EDT </time>
+        <para>The OSIRIS-REx capsule has touched down.The “time capsule to our ancient solar system”
+            from the OSIRIS-REx mission has officially touched down in the Utah desert. NASA’s live
+            coverage notes it landed about three minutes sooner than expected. The team is now
+            heading to it with helicopters to begin the process of gathering the samples.</para>
+    </article>
+</WebPage>

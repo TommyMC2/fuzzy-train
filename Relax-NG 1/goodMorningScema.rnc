@@ -12,7 +12,7 @@ level = attribute level {"book" | "inner"}
 
 poem = element poem {title, lineGroup+}
 lineGroup = element lineGroup {line+}
-line = element line {mixed{n,(placeName| place| motif)*}}
+line = element line {mixed{n,(placeName| place| motif)?}}
 n = attribute n {xsd:integer}
 placeName = element placeName {ref, text}
 place = element place {ref, text}
