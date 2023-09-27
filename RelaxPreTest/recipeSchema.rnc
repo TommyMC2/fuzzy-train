@@ -26,45 +26,30 @@ start = xml
 xml = element xml {metadata, recipe}
 metadata = element metadata {title, author, editor, source, time, yield}#added "yield" to metadata
 title = element title {text}#fixed "txt" to "text"
-
 author = element author {id, text}
 editor = element editor {id, text}
-source = element source {url, text}
-#add "url" to element
+source = element source {url, text}#add "url" to element
 time = element time {dur, text}
-yield = element yield {text}
-id = attribute id {xsd:ID}
+yield = element yield {text}#added yield element
+id = attribute id {xsd:ID}# changed "is" to "id"
 url = attribute url {xsd:anyURI}
 dur = attribute dur {xsd:duration}
-
 recipe = element recipe {ingList, prep}
-
 ingList = element ingList {heading, ing+}
 heading = element heading {text}
-ing = element ing {mixed{id, meas?, unit?, alt*}}
-alt = element alt {mixed{meas, unit}}
+ing = element ing {mixed{id, meas?, unit?, alt*}}#made element ing mixed
+alt = element alt {mixed{meas, unit}}#made element alt mixed
 meas = attribute meas {xsd:float}
-unit = attribute unit {"cup" | "T" | "t"  | "F" | "C" | "inch" | "pint"}
-
+unit = attribute unit {"cup" | "T" | "t"  | "F" | "C" | "inch" | "pint"}#added "pint" to the attribute
 prep = element prep {heading, step+}
 step = element step {n, mixed{(combine | equip | equipUse | ingUse)*}}
-equip = element equip {id, mixed{(equip| temp | equipUse| size | setting | time)*}}
-setting =  element setting {text}
+equip = element equip {id, mixed{(equip| temp | equipUse| size | setting | time)*}}#added "temp" to element
+setting =  element setting {text}#created element setting
 temp = element temp {meas, unit, text}
 size = element size {depth, unit, text}
 depth = attribute depth {xsd:float}
 equipUse = element equipUse {ref, mixed{(temp | size | equip | equipUse | ingUse | setting | time)*}}
-ingUse = element ingUse {mixed{ref, (meas, unit)?}}
+ingUse = element ingUse {mixed{ref, (meas, unit)?}}#made element mixed and created the group (meas, unit)?
 ref = attribute ref {xsd:IDREFS}
-combine = element combine {mixed{ref, ingUse}}
-n = attribute n {xsd:integer}
-
-
-
-
-
-
-
-
-
-
+combine = element combine {mixed{ref, ingUse}}#made element mixed and added ingUse
+n = attribute n {xsd:integer} # changed the data type to intergers 
