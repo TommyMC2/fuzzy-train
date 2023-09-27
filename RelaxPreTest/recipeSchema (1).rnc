@@ -24,34 +24,38 @@
 
 start = xml
 xml = element xml {metadata, recipe}
-metadata = element metadata {title, author, editor, source, time}
-title = element title {txt}
+metadata = element metadata {title, author, editor, source, time, yield}#added "yield" to metadata
+title = element title {text}#fixed "txt" to "text"
 author = element author {id, text}
 editor = element editor {id, text}
-source = element source {text}
+source = element source {url, text}#add "url" to element
 time = element time {dur, text}
-id = attribute is {xsd:ID}
+yield = element yield {text}#added yield element
+id = attribute id {xsd:ID}# changed "is" to "id"
 url = attribute url {xsd:anyURI}
 dur = attribute dur {xsd:duration}
 
 recipe = element recipe {ingList, prep}
+
 ingList = element ingList {heading, ing+}
 heading = element heading {text}
-ing = element ing {id, meas?, unit?, mixed{alt*}}
-alt = element alt {meas, unit, text}
+ing = element ing {mixed{id, meas?, unit?, alt*}}
+alt = element alt {mixed{meas, unit}}
 meas = attribute meas {xsd:float}
-unit = attribute unit {"cup" | "T" | "t"  | "F" | "C" | "inch"}
-prep = element prep {heading, step?}
-step = element step {n, mixed{combine | equip | equipUse | ingUse*}}
-equip = element equip {id, mixed{(equip | equipUse | setting | time)*}}
+unit = attribute unit {"cup" | "T" | "t"  | "F" | "C" | "inch" | "pint"}
+
+prep = element prep {heading, step+}
+step = element step {n, mixed{(combine | equip | equipUse | ingUse)*}}
+equip = element equip {id, mixed{(equip| temp | equipUse| size | setting | time)*}}
+setting =  element setting {text}
 temp = element temp {meas, unit, text}
 size = element size {depth, unit, text}
 depth = attribute depth {xsd:float}
 equipUse = element equipUse {ref, mixed{(temp | size | equip | equipUse | ingUse | setting | time)*}}
-ingUse = element ingUse {ref, meas, unit, text}
+ingUse = element ingUse {mixed{ref, (meas, unit)?}}
 ref = attribute ref {xsd:IDREFS}
-combine = element combine {ref, text}
-n = attribute n {xsd:date}
+combine = element combine {mixed{ref, ingUse}}
+n = attribute n {xsd:integer} # changed the data type to intergers 
 
 
 
