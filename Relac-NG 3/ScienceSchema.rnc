@@ -12,8 +12,30 @@ n = attribute n {xsd:integer}
 icon = element icon {text}
 editor = element editor {name, text}
 name = attribute name {xsd:IDREFS}
+# ebb: Glad to see you're experimenting with xsd:IDREFS
+# xsd:IDREFS is different from xsd:IDREF because it can literally 
+# allow multiple values separated by spaces 
+# The rule is that each IDREF value is the same as an xsd:ID defined 
+# elsewhere in the document. THe only reason you see validation errors
+# on this in your XML  is that your values don't match any defined xsd:IDs 
 time = element time {t, text}
 t = attribute t {xsd:ID}
+# ebb: Okay: here you set the xsd:ID datatytpe on the attribute t, and this requires
+# a string that doesn't contain any spaces and must include letters. It can optionally include
+# numbers, hyphens, and underscores. But no spaces. And that's why you're seeing
+# validation errors on the XML for this where you have spaces. The xsd:ID datatype 
+# does not allow spaces, and that makes it possible for xsd:IDREFS to use spaces to separate
+# multiple xsd:IDs if you want to refer to two different ids together. 
+# You define an xsd:ID just once somewhere in the file, usually in a list of identifiers like
+# I showed you on the Relax NG pre-test (example: ingredient list on the recipe). 
+# Then you use xsd:IDREF and xsd:IDREFS
+# to refer back to it (from the steps in the recipe, to talk about how the ingredients were used). 
+# The value you use in IDREF or IDREFS must be set by an xsd:ID for 
+# your XML to validate when you use these, so they properly match up to each other.
+
+# For what you're doing with this t attribute though, I think you want xsd:time (I didn't list it in my tutorial, 
+# but you can find it digging around the internet for datetime datatypes like here:
+# https://www.oreilly.com/library/view/relax-ng/0596004214/re125.html
 para = element para {mixed{time*}}
 disc = element disc {text}
 credit = element credit {text}
