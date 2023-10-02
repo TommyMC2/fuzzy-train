@@ -29,36 +29,43 @@
 # When you are finished, upload BOTH the schema and the XML file to Canvas using the posted upload point for this exam. 
 # You may zip the files to submit them just as you have done for homework assignments.
 start = xml
-xml = element xml {heading | body}
+xml = element xml {heading , body} #Allowed body to follow heading 
 heading = element heading {title, byline, listNames}
-title = element title {empty}
-byline = element byline {author, pubTitle, date}
+title = element title {text}#Changed from empty to text
+byline = element byline {mixed{author, pubTitle, date}} #Made element mixed
 author = element author {text} 
 pubTitle = element pubTitle {text} 
-listNames = element listNames {person+, org, tech+}
-person = element person {role, id, text}
+listNames = element listNames {person+, org+, tech+} #Allowed org to appear more than once
+person = element person {role, id, name}
 org = element org {role, id, name}
 tech = element tech {role, id, name, source}
 
-role = element role {"investigator" | "navigator" | "pilot" | "search" | "flight" | "research" | "news"}
-id = attribute id {xsd:??}
+role = attribute role {"investigator" | "navigator" | "pilot" | "search" | "flight" | "research" | "news"}#Changed from element to attribute 
+id = attribute id {xsd:ID} #Changed to xsd:ID
 
 name = element name {text}
 source = element source {url, empty}
-url = attribute url {xsd:??}
+url = attribute url {xsd:anyURI} #Changed to xsd:anyURI
 
-body = element body {section+}
+body = element body {intro,section+} #Added Intro 
 intro = element intro {p+}
-section = element section {subtitle, p}
-p = element p {(timelapse | date | place | mention | radioFreq | message)*, text}
+section = element section {subtitle, p+} 
+subtitle = element subtitle {text} #Added subtitle Element to schema
+p = element p {mixed{(timelapse | date | place | mention | radioFreq | message)*}} #Changed to mixed element
 radioFreq = element radioFreq {text}
 timelapse = element timelapse {dur, text}
-date = element date {when, from?, to?, text}
+dur = attribute dur {xsd:ID} #Created dur element and marked as ID
+date = element date {when?, from?, to?, text}
+when = attribute when {xsd:date | xsd:gYearMonth | xsd:gYear}
+from = attribute from {xsd:date | xsd:gYearMonth | xsd:gYear} #Created Attribute
+to = attribute to {xsd:date | xsd:gYearMonth | xsd:gYear} #Created Attribute 
+
 place = element place {text}
 mention = element mention {ref, text} 
 ref = attribute ref {xsd:IDREF}
-message = element message {text}
+message = element message {type?, text} #Added type attribute
 type= attribute type {text}
+
 
 
 
