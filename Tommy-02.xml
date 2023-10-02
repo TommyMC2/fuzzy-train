@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Poem>
+    <Title>Leaves</Title>
+    <Intro>Add this poem to an anthology Lloyd Schwartz 1941 – </Intro>
+    <!-- a published collection of poems or other pieces of writing. -->
+
+    <Ind>1</Ind>
+    <Stanza s="1">Every <Cont Info="Setting">October</Cont> it becomes important, no, necessary to
+        see the leaves turning, to be surrounded by leaves turning; it's not just the symbolism, to
+        confront in the death of the year your death, one blazing farewell appearance, though the
+        irony isn't lost on you that nature is most seductive when it's about to die, flaunting the
+        dazzle of its incipient exit, an ending that at least so far the effects of human progress
+            <LoI>(pollution, acid rain)</LoI> have not yet frightened you enough to make you believe
+        is real; that is, you know this ending is a deception because of course nature is always
+        renewing itself— the trees don't die, they just pretend, go out in style, and return in
+        style: a new style. </Stanza>
+    <!-- I came back to mark these words because it was interesting how the author uses man made things like pollution or acid rain in the first stanza yet in the last one it brings up fire a more natural  -->
+
+    <Ind>2</Ind>
+    <Stanza s="2">Is it deliberate how far they make you go especially if you live in the city to
+        get far enough away from home to see not just trees but only trees? <Cont Info="Setting">The
+            boring highways, roadsigns</Cont>, high speeds, 10-axle trucks passing you as if they
+        were in an even greater hurry than you to look at leaves: so you drive in terror for literal
+        hours and it looks like rain, or snow, but it's probably just clouds (too cloudy to see any
+        color?) and you wonder, <LoI>given the poverty of your memory</LoI>, which road had the most
+        color last year, but it doesn't matter since you're probably too late anyway, or too early—
+        whichever road you take will be the wrong one and you've probably come all this way for
+        nothing. </Stanza>
+    <!-- "Poverty of your memory" is a great way of describe someone lack of memories-->
+
+    <Ind>3</Ind>
+    <Stanza s="3">You'll be driving along depressed when suddenly a cloud will move and <Cont
+            Info="Setting">the sun will muscle through and ignite the hills.</Cont> It may not last.
+        Probably won't last. But for a moment the whole world comes to. Wakes up. Proves it lives.
+        It lives— red, yellow, orange, brown, russet, ocher, vermilion, gold. Flame and rust. Flame
+        and rust, <LoI>the permutations of burning. You're on fire. Your eyes are on fire.</LoI> It
+        won't last, you don't want it to last. You can't stand any more. But you don't want it to
+        stop. It's what you've come for. It's what you'll come back for. It won't stay with you, but
+        you'll remember that it felt like nothing else you've felt or something you've felt that
+        also didn't last.</Stanza>
+    <!-- I love how the mundane drive turns into an overwhelming flame of color thats so different from what this person is used to seeing it looking at it hurts in a way -->
+    <copyRight>Copyright © 1992 by Lloyd Schwartz. From Goodnight, Gracie (The University of Chicago
+        Press, 1992). Appears courtesy of the author.</copyRight>
+</Poem>
