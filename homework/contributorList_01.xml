@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/contributorList.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/xsl" href="contributorList.xsl.xsl"?>
+<xml>
+    <header>
+        <title>Quark / 1</title>
+        <editor>Samuel R. Delaney</editor>
+        <editor>Marilyn Hacker</editor>
+        <issue>1</issue>
+    </header>
+    <listPerson>
+        <person>
+            <persName>HELEN ADAM</persName>
+            <birth when="1909"/>
+            <death when="1993"/>
+            <note source="quark">is a Scots-born poet, who now lives in New York City. She is the
+                co-author of the play <title>San Francisco's Burning</title>, which has been
+                presented in San Francisco and in New York.</note>
+            <toc>
+                <entry>
+                    <title>DAUGHTER OF ROSES</title>
+                    <pages>164-165</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>HILARY BAILEY</persName>
+            <note source="quark">most recent American publication was the novella <title>The Fall of
+                    Frenchy Steiner</title>. She lives in London, with her husband, Michael
+                Moorcock. Greg Benford's first novel, <title>Deeper than the Darkness</title>, is an
+                expansion of his novelette of the same title, which was nominated for the Nebula
+                Award of the Science Fiction Writers of America.</note>
+            <toc>
+                <entry>
+                    <title>Dogman of Islington</title>
+                    <pages>115-133</pages>
+                </entry>
+            </toc>
+        </person>
+
+        <person>
+            <persName>Sandy Boucher</persName>
+            <note source="quark"/>
+            <toc>
+                <entry>
+                    <title>Shades</title>
+                    <pages>134</pages>
+
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>Ursula K. Le Guin</persName>
+            <note source="quark">received the Nebula Award of the Science Fiction Writers of America
+                for her novel The <title> Left Hand of Darkness.</title></note>
+            <toc>
+                <entry>
+                    <title>A Trip to the Head</title>
+                    <pages>36</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>JOAN BERNOTT</persName>
+            <note source="quark">attended the Clarion College Science Fiction Writers'
+                Workshop.</note>
+            <toc>
+                <entry>
+                    <title>My Father's Guest</title>
+                    <pages>177-181</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>SANDRA BOUCHER</persName>
+            <note source="quark">is a young writer who lives in San Francisco.</note>
+            <toc>
+                <entry>
+                    <title/>
+                    <pages/>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>ED BRYANT</persName>
+            <note source="quark">has a Master's degree in English from the University of Wyoming. He
+                lives in Los Angeles.</note>
+            <toc>
+                <entry>
+                    <title>Adrift on the Freeway</title>
+                    <pages>166-176</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>SAMUEL R. DELANY</persName>
+            <note source="quark">lives currently in San Francisco.</note>
+            <toc>
+                <entry>
+                    <title>Critial Methods: Speculative Fiction</title>
+                    <pages>182-195</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>THOMAS M. DISCH</persName>
+            <note source="quark"> author of <title>Camp Concentration</title>, <title>The
+                    Genocides</title>, and <title>Echo Round His Bones</title>, lives in New
+                York.</note>
+            <toc>
+                <entry>
+                    <title>Let Us Quickly Hasten to the Gate of Ivory</title>
+                    <pages>43-61</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>GARDNER R. DOZOIS</persName>
+            <note source="quark">recently returned to the United States after spending four years
+                abroad. He now lives in New York City.</note>
+            <toc>
+                <entry>
+                    <title>The Sound of Muzak</title>
+                    <pages>14-35</pages>
+                </entry>
+            </toc>
+        </person>
+
+
+        <person>
+            <persName>GORDON EKLUND</persName>
+            <note source="quark">lives with his wife and child in San Francisco.</note>
+            <toc>
+                <entry>
+                    <title>Ramona, Come Softly</title>
+                    <pages>196-228</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>RUSSELL FITZGERALD</persName>
+            <note source="quark">is a painter, designer, and writer. He lives in New York with his
+                wife and twin daughters.</note>
+            <toc>
+                <entry>
+                    <title>Twelve Ancillary Animations for the QUARK/ Cover Called Appomattox,
+                        Ramona, Come Softly</title>
+                    <pages>139-161,196-228</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>STEPHEN GILDEN</persName>
+            <note source="quark">is a painter and cartoonist who has lived in Texas, New York, and,
+                currently, California.</note>
+            <toc>
+                <entry>
+                    <title>Frontispiece, Six Drawings</title>
+                    <pages>6-6,229-237</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>H. B. HICKEY</persName>
+            <note source="quark">lives in Los Angeles.</note>
+            <toc>
+                <entry>
+                    <title>Gone Are the Lupo</title>
+                    <pages>89-96</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>R. A. LAFFERTY</persName>
+            <note source="quark">is the author of <title>Space Chantey</title>, <title>The Reefs of
+                    Earth</title>, <title>Past Master</title>, and, most recently, <title>Fourth
+                    Mansions</title>.</note>
+            <toc>
+                <entry>
+                    <title>The Cliff Climbers</title>
+                    <pages>8-13</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>URSULA K. LEGUIN</persName>
+            <note source="quark">received the Nebula Award of the Science Fiction Writers of America
+                for her novel <title>The Left Hand of Darkness</title>.</note>
+            <toc>
+                <entry>
+                    <title/>
+                    <pages/>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>LINK</persName>
+            <note source="quark">is a young poet who lives in San Francisco. He edited the literary
+                magazine <title>Cow</title>.</note>
+            <toc>
+                <entry>
+                    <title>Getting To Know You</title>
+                    <pages>113-114</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>CHRISTOPHER PRIEST</persName>
+            <note source="quark">is a young English writer.</note>
+            <toc>
+                <entry>
+                    <title>Fire Storm</title>
+                    <pages>97-112</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>JOANNA RUSS</persName>
+            <note source="quark">is the author of <title>And Chaos Died</title> and <title>Picnic on
+                    Paradise</title>. She teaches creative writing at Cornell University.</note>
+            <toc>
+                <entry>
+                    <title>The View From This Window</title>
+                    <pages>69-88</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>GEORGE STANLEY</persName>
+            <note source="quark">collection of poems, <title>You</title>, will appear this winter
+                from Grove Press, and will include <title>Orion</title>.</note>
+            <toc>
+                <entry>
+                    <title>Orion</title>
+                    <pages>68</pages>
+                </entry>
+            </toc>
+        </person>
+        <person>
+            <persName>A. E. VAN VOGT</persName>
+            <note source="quark">is the author of <title>The Silkie</title>, <title>The Weapon Shops
+                    of lsher</title>, and <title>Sian</title>.</note>
+            <toc>
+                <entry>
+                    <title>Carthing</title>
+                    <pages>162-163</pages>
+                </entry>
+            </toc>
+        </person>
+
+        <person>
+            <persName>Contributors' Notes</persName>
+            <toc>
+                <entry>
+                    <title>Contributors' Notes</title>
+                    <pages>238</pages>
+                </entry>
+            </toc>
+        </person>
+    </listPerson>
+
+
+
+</xml>
